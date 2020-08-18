@@ -12,6 +12,7 @@ async function useapi(){
         change_from_currency.innerHTML+='<option value="'+each+'">'+each+'</option>';
         change_to_currency.innerHTML+='<option value="'+each+'">'+each+'</option>';
     });
+    document.querySelector('.date-container').innerHTML="Exchange rate of date: "+response.date;
     excahnge_currency(all_currency_and_rates);
 };
 function excahnge_currency(all_currency_and_rates){
