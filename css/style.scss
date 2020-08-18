@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    margin: 23.33vh auto;
+    width: 400px;
+    height: 33.33vh;
+    padding:25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    .title{
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+    .exchange-input-container{
+        padding: 5px;
+        label{
+            font-weight: lighter;
+            font-size: 0.8rem;
+            color: gray;
+        }
+        select{
+            background-color: gray;
+            width: 75px;
+            margin-bottom: 20px;
+            outline: none;
+            color: white;
+            border-radius: 5px;
+            padding: 3.75px 5px;
+        }
+        input[type='number']{
+            background-color: gray;
+            outline: none;
+            color: white;
+            border-radius: 5px;
+            padding: 4px 10px;
+            width: 100px;
+        }
+    }
+}
